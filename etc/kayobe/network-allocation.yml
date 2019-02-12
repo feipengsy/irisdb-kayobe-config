@@ -1,0 +1,10 @@
+admin_ips:
+  irisdb-head: 192.168.10.2
+  irisdb-os1: 192.168.10.11
+  irisdb-os2: 192.168.10.12
+  irisdb-seed: 192.168.10.16
+external_ips:
+  irisdb-head: 192.41.108.3
+  irisdb-os1: 192.41.108.12
+  irisdb-os2: 192.41.108.13
+  irisdb-seed: 192.41.108.16
