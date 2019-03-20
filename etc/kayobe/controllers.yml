@@ -4,7 +4,7 @@
 
 # User with which to access the controllers via SSH during bootstrap, in order
 # to setup the Kayobe user account.
-controller_bootstrap_user: root
+#controller_bootstrap_user:
 
 ###############################################################################
 # Network interface attachments.
@@ -56,7 +56,7 @@ controller_bootstrap_user: root
 
 # List of controller volume groups. See mrlesmithjr.manage-lvm role for
 # format.
-#controller_lvm_groups: []
+#controller_lvm_groups:
 
 # Default list of controller volume groups. See mrlesmithjr.manage-lvm role for
 # format.
@@ -72,8 +72,7 @@ controller_bootstrap_user: root
 
 # List of disks for use by controller LVM data volume group. Default to an
 # invalid value to require configuration.
-controller_lvm_group_data_disks:
-  - /dev/sda5
+#controller_lvm_group_data_disks:
 
 # List of LVM logical volumes for the data volume group.
 #controller_lvm_group_data_lvs:

@@ -1,7 +1,6 @@
 ---
 ###############################################################################
 # Network interface definitions for the seed group.
-external_interface: eth1
 
 # Overcloud provisioning network IP information.
 # provision_oc_net_interface:

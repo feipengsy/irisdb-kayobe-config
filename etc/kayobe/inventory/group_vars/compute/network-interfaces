@@ -1,8 +1,6 @@
 ---
 ###############################################################################
 # Network interface definitions for the compute group.
-external_interface: ens1f1
-admin_interface: eno1
 
 # Overcloud provisioning network IP information.
 # provision_oc_net_interface:
