@@ -2,9 +2,20 @@ admin_ips:
   irisdb-head: 192.168.10.2
   irisdb-os1: 192.168.10.11
   irisdb-os2: 192.168.10.12
-  irisdb-seed: 192.168.10.16
-external_ips:
+  irisdb-os3: 192.168.10.13
+  irisdb-os4: 192.168.10.14
+  #irisdb-seed: 192.168.10.16
+public_ips:
   irisdb-head: 192.41.108.3
   irisdb-os1: 192.41.108.12
   irisdb-os2: 192.41.108.13
-  irisdb-seed: 192.41.108.16
+  irisdb-os3: 192.41.108.14
+  irisdb-os4: 192.41.108.15
+  #irisdb-seed: 192.41.108.16
+storage_ips:
+  irisdb-head: 10.0.0.15
+  irisdb-os1: 10.0.0.10
+  irisdb-os2: 10.0.0.11
+  irisdb-os3: 10.0.0.12
+  irisdb-os4: 10.0.0.13
+  #irisdb-seed: 10.0.0.14

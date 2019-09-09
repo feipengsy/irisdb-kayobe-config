@@ -5,4 +5,9 @@
 # defaults to UUID.  This setting overrides K-A and brings it in-line with
 # Keystone's default.
 #
+enable_ceph: "no"
+glance_backend_ceph: "yes"
+cinder_backend_ceph: "yes"
+nova_backend_ceph: "no"
+enable_manila_backend_ceph_native: "yes"
 keystone_token_provider: 'fernet'

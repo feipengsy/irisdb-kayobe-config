@@ -12,17 +12,24 @@ localhost ansible_connection=local
 [seed]
 # Add a seed node here if required. This host will provide the Bifrost
 # undercloud.
-irisdb-seed
+#irisdb-seed
 
 [controllers]
 # Add controller nodes here if required. These hosts will provide the
 # OpenStack overcloud.
 irisdb-head
 
-[baremetal-compute]
-# Add baremetal compute nodes here if required.
+[compute]
 irisdb-os1
 irisdb-os2
+irisdb-os3
+irisdb-os4
+
+[storage]
+irisdb-head
+
+[baremetal-compute]
+# Add baremetal compute nodes here if required.
 
 [mgmt-switches]
 # Add management network switches here if required.

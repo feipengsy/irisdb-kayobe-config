@@ -2,6 +2,20 @@
 ###############################################################################
 # Network interface definitions for the controller group.
 
+
+storage_interface: br2
+storage_bridge_ports:
+    - ens1f0
+
+public_interface: br1
+public_bridge_ports:
+    - ens1f1
+
+admin_interface: br0
+admin_bridge_ports:
+    - eno1
+
+
 # Overcloud provisioning network IP information.
 # provision_oc_net_interface:
 # provision_oc_net_bridge_ports:

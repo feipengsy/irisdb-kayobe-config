@@ -34,8 +34,8 @@
 ###############################################################################
 # Ironic configuration.
 
-# List of hardware types to enable for Bifrost's Ironic.
-#kolla_bifrost_enabled_hardware_types:
+# Whether to enable ipmitool-based drivers.
+#kolla_bifrost_enable_ipmitool_drivers:
 
 ###############################################################################
 # Ironic Inspector configuration.
@@ -95,7 +95,6 @@
 
 # Server inventory for Bifrost.
 #kolla_bifrost_servers:
-
 ###############################################################################
 # Dummy variable to allow Ansible to accept this file.
 workaround_ansible_issue_8743: yes
